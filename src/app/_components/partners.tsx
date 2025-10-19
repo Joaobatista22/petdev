@@ -1,6 +1,6 @@
 // components/Partners.tsx
 import Image from "next/image";
-import styles from "./Partners.module.css";
+import styles from "./partners.module.css";
 import { Award, Heart } from "lucide-react";
 import HeroImage from "../../../public/dog-is-looking-plate-peanuts_890580-914.jpg";
 
