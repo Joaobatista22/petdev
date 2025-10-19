@@ -11,7 +11,7 @@ export function About() {
     <section className="w-full bg-gray-100 text-gray-800 py-8 px-5 text-center">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
         <div className="relative">
-          {/* Imagem */}
+
           <div className="relative w-full h-80 lg:h-[500px]">
             <Image
               src={abount1Img}
@@ -22,7 +22,7 @@ export function About() {
               priority
             />
           </div>
-          {/* Imagem menor */}
+
           <div className="absolute w-30 h-30 lg:w-40 lg:h-40 rounded-lg overflow-hidden border-4 border-white shadow-lg -bottom-10 right-4">
             <Image
               src={abount2Img}
@@ -33,7 +33,7 @@ export function About() {
             />
           </div>
         </div>
-        {/* Conteúdo */}
+
         <div className="flex flex-col justify-center gap-6 text-center lg:text-left pt-12">
           <h2 className="text-3xl md:text-5xl font-bold">Sobre Nós</h2>
           <p className="text-lg md:text-2xl">
@@ -68,7 +68,6 @@ export function About() {
       </div>
 
       <div className="relative w-full mt-20 rounded-2xl overflow-hidden">
-        {/* Banner de fundo */}
         <div className="w-full lg:h-[580px]">
           <Image
             src={backgroundAdress}
@@ -76,8 +75,6 @@ export function About() {
             className="w-full object-cover"
           />
         </div>
-
-        {/* Conteúdo por cima do background */}
         <div className="absolute inset-0 flex flex-col items-center text-center ">
           <h1 className="mt-6 text-white text-2xl drop-shadow-lg font-black lg:text-4xl">
             ONDE ESTAMOS{" "}
@@ -85,10 +82,7 @@ export function About() {
               LOCALIZADOS?
             </span>
           </h1>
-
-          {/* Grid dentro do background */}
           <div className="grid grid-cols-1 md:grid-cols-2 w-full max-w-6xl mx-auto">
-            {/* Coluna da Imagem */}
             <div className="flex justify-center md:justify-end w-full">
               <Image
                 src={addressDog}
@@ -97,8 +91,6 @@ export function About() {
                 style={{ filter: "drop-shadow(0 4px 6px black)" }}
               />
             </div>
-
-            {/* Coluna dos Endereços */}
             <div className="flex flex-row sm:flex-col flex-wrap justify-center md:justify-start items-center md:items-start text-white gap-4 lg:p-5 lg:pt-20">
               <div className="flex flex-col items-center md:items-start">
                 <p className="text-blue-950 font-bold text-xs lg:text-2xl">

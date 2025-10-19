@@ -1,6 +1,3 @@
-import mapaBrasil from "../../../public/mapa.svg";
-import dodSecondImg from "../../../public/undraw_relaxing-walk_hvua.svg";
-import Image from "next/image";
 
 export function HeaderPage() {
   return (

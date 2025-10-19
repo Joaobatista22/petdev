@@ -1,3 +1,4 @@
+
 "use client";
 
 import useEmblaCarousel from "embla-carousel-react";
@@ -8,7 +9,6 @@ import {
   Hotel,
   ChevronLeft,
   ChevronRight,
-  PawPrint,
 } from "lucide-react";
 import { WhatsappLogoIcon } from "@phosphor-icons/react/dist/ssr";
 import Image from "next/image";
@@ -123,7 +123,6 @@ export function Services() {
               ))}
             </div>
           </div>
-          {/* Botões de navegação */}
           <button
             type="button"
             onClick={scrollPrev}
@@ -140,8 +139,6 @@ export function Services() {
           </button>
         </div>
       </div>
-
-      {/* Banner fora do container para ocupar full width */}
       <div className="mt-3 relative">
         <Image
           src={Banner}
